@@ -10,6 +10,9 @@ Plataforma web para ver las películas guardadas en Google drive de forma intuit
 - Importa tus carpetas de drive con películas para acceder a ellas en un entorno intuitivo
 - Navega por ellas ordenadas por categorías
 - Visualiza información como tráiler, actores, sinopsis...
+![](https://raw.githubusercontent.com/MarcpTr/cine-laravel/main/login.JPG)
+![](https://raw.githubusercontent.com/MarcpTr/cine-laravel/main/principal.JPG)
+![](https://raw.githubusercontent.com/MarcpTr/cine-laravel/main/info.JPG)
 
 ## Tecnologias
 - html5
