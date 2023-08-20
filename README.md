@@ -44,7 +44,7 @@ DB_PASSWORD=
 ```
 Para ejecutar
 ```sh
-
+php artisan serve
 ```
 
 
