@@ -42,9 +42,15 @@ DB_DATABASE=CloudPlayer
 DB_USERNAME=root
 DB_PASSWORD=
 ```
+Para ejecutar
+```sh
+
+```
+
 
 Para producción
-
+```sh
+```
 APP_ENV=production
 APP_DEBUG=false
 ```
