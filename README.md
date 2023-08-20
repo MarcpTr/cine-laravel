@@ -12,8 +12,6 @@ Plataforma web para ver las películas guardadas en Google drive de forma intuit
 - Visualiza información como tráiler, actores, sinopsis...
 
 ## Tecnologias
-
-
 - html5
 - css
 - JavaScript
@@ -22,13 +20,14 @@ Plataforma web para ver las películas guardadas en Google drive de forma intuit
 - MySQL
 
 ## Instrucciones
+```sh
 - composer global require laravel/installer
 - composer install
 - php artisan serve 
 - php artisan key:generate
 - php artisan make:migration create_user_table
 - php artisan migrate
-
+```
 
 
 Modificar el fichero .env para apuntar a la base de datos
@@ -42,7 +41,7 @@ DB_PASSWORD=
 ```
 
 Para producción
-```sh
+
 APP_ENV=production
 APP_DEBUG=false
 ```
