@@ -1,0 +1,32 @@
+.carpetas {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    max-width: 860px;
+}
+.carpetaelement {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+input[type=text], button, .carpetaelement {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border-radius: 5px;
+    font-size: 1.2em;
+}
+.input[type=text], .carpetaelement {
+    background-color: #1a1a1a;
+    color: rgb(255, 254, 254);
+}
+.guardar {
+    background: #214b6f;
+    color: rgb(255, 254, 254);
+}
+.borrar {
+    background: #6f213f;
+    color: rgb(255, 254, 254);
+    max-width: fit-content;
+}

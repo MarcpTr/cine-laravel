@@ -1,0 +1,78 @@
+#info .backgroundinfo {
+    background: rgba(0,0,0,0.56);
+    background-position: center top;
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    
+}
+.titulo{
+    color:blanchedalmond;
+}
+
+.trailer{
+    max-width: 720px;
+    margin: auto;
+
+}
+.trailer div{
+    position: relative;
+    padding-bottom: 56.25%; /* 16:9 */
+    height: 0;
+
+}
+.trailer iframe{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}.playbutton{
+    display: flex;
+    justify-content: center;
+ margin-top: 25px;
+
+}
+
+.playbutton  div a{
+
+    box-sizing: border-box;
+    border-radius: 5px;
+    font-size: 1.2em;
+    padding: 5px;
+    background-color: #1a1a1a;
+    color: rgb(255, 254, 254);
+}
+.playbutton   :hover{
+    color: rgb(146, 230, 121);
+}
+.description{   
+     margin: auto;
+    color:blanchedalmond;
+    background-color: rgba(0, 0, 0, 0.719);
+    max-width: 720px;
+    font-size: 1.2em;
+    border-radius: 10px;
+}
+
+.secondary-info{
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+    color:blanchedalmond;
+}
+.misc{
+    padding-left: 20px;
+    width: 25vw;
+
+}
+.secondary-info img{
+width: 100px;
+height: auto;
+}
+.actores, .videos{
+    display: flex;
+    flex-direction: row;
+    overflow-x: scroll;
+    width: 75vw;
+   
+}

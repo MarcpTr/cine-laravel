@@ -1,0 +1,66 @@
+
+.form {
+    display: flex;
+    flex-direction: column;
+}
+
+.formheader {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 1.5em;
+}
+
+.formheader h2 {
+    color: rgb(255, 254, 254);
+}
+
+.formheader a {
+    color: cornflowerblue;
+}
+
+.form form {
+    display: flex;
+    flex-direction: column;
+}
+
+input[type=text], input[type=password], button[type=submit] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border-radius: 5px;
+    font-size: 1.2em;
+    background-color: #1a1a1a;
+    color: rgb(255, 254, 254);
+}
+
+.checkbox {
+    font-size: 1.2em;
+    color: rgb(255, 254, 254);
+}
+
+button[type=submit] {
+    background: #214b6f;
+    color: rgb(255, 254, 254);
+}
+
+form a {
+    color: cornflowerblue;
+    font-size: 1.2em;
+    color: rgb(255, 254, 254);
+}
+
+.formfooter {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+@media screen and (min-width: 600px) {
+    .form {
+        max-width: 580px;
+        margin: auto;
+    }
+}
