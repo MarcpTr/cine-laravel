@@ -24,12 +24,12 @@ Plataforma web para ver las películas guardadas en Google drive de forma intuit
 
 ## Instrucciones
 ```sh
-- composer global require laravel/installer
-- composer install
-- php artisan serve 
-- php artisan key:generate
-- php artisan make:migration create_user_table
-- php artisan migrate
+ composer global require laravel/installer
+ composer install
+ php artisan serve 
+ php artisan key:generate
+ php artisan make:migration create_user_table
+ php artisan migrate
 ```
 
 
