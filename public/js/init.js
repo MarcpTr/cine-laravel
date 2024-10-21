@@ -1,5 +1,5 @@
 var resCarpetas;
-function init() {
+function init() { 
     resCarpetas = obtenerCarpetas();
     obtenerFicherosDrive();
  //   obtenerIDPeliculas();
